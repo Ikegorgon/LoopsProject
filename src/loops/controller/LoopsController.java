@@ -40,5 +40,12 @@ public class LoopsController {
 		for(int num : number) {
 			System.out.println(num);
 		}
+		System.out.println("");
+		for (int i = 5; i >= -5; i -= 3) {
+			System.out.print(i + " ");
+		}
+		for (int i =1; i <= 19; i += 6) {
+			System.out.print(i + " ");
+		}
 	}
 }
